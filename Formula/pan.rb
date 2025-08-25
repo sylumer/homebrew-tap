@@ -4,6 +4,7 @@ class Pan < Formula
   url "https://github.com/sylumer/pan/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "49ff1cba87170e430359a5840823d0a22608808ccfdbd0612cbebc4b4da56592"
   license "Coffeeware"
+  
   depends_on "ffmpeg"
 
   def install
@@ -12,6 +13,6 @@ class Pan < Formula
   end
 
   test do
-	system "#{bin}/pan", "--version"
+	system "#{bin}/pan", "--help"
   end
 end
