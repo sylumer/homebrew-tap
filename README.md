@@ -10,7 +10,7 @@ brew tap sylumer/tap
 You can list available Homebrew formulae in the tap using:
 
 ```
-brew search sylumer/tap/
+brew search sylumer/tap
 ```
 
 # Formulae
