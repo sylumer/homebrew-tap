@@ -19,8 +19,19 @@ You can install a formula from the tap using, for example:
 brew install sylumer/tap/seg
 ```
 
+Casks (macOS apps) install the same way:
+
+```
+brew install --cask sylumer/tap/sentinel
+```
+
 # Formulae
 The following formulae are currently available via this tap/repo.
 
 - `pan` - a helper for using Piper TTS.
 - `seg` - a sound effect generator based on a numeric seed.
+
+# Casks
+The following casks are currently available via this tap/repo.
+
+- `sentinel` - menu-bar app for running and monitoring long-lived scripts.
