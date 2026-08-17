@@ -8,7 +8,7 @@ cask "sentinel" do
   homepage "https://sentinel.thoughtasylum.com"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Sentinel.app"
 
