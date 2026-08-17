@@ -19,7 +19,7 @@ You can install a formula from the tap using, for example:
 brew install sylumer/tap/seg
 ```
 
-Casks (macOS apps) install the same way:
+You can install full macOS apps by installing that cask in a similar way:
 
 ```
 brew install --cask sylumer/tap/sentinel
